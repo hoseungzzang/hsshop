@@ -8,46 +8,48 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar variant="dark">
-        <Container>
-          <div className="row justify-content-center w-100">
-         
-              <Navbar.Brand href="#home" className="">
-                <img
-                  alt=""
-                  src={logo}
-                  width="20"
-                  height="20"
-                  className="d-inline-block align-top App-logo"
-                />{' '}
-                Hs's Shop
-              </Navbar.Brand>
 
-            
-          </div>
-        </Container>
-      </Navbar>
       <div className="headerBar">
-      <Container>
-          <div className="row justify-content-around align-items-center w-100 ">
-          <div className='col-2'>메뉴바위치</div>
-       
-          <div className='col-2 '>
-          <Button className="headerBtn headerBtnOut">로그인</Button>
-          <Button className="headerBtn headerBtnOut" >회원가입</Button>
-            </div>
-            
+        <div className='header'>
+          <div className='loginBox'>
+            <a>로그인</a>
+            <a>회원가입</a>
           </div>
-        </Container>
+
+          <div className='mainTitle'>
+            <img
+              alt=""
+              src={logo}
+              width="20"
+              height="20"
+              className="d-inline-block align-top App-logo" 
+            />HS's Shop
+            </div>
+
+            <div className='categoryNav'>
+            <div><img
+          className="categotyImg"
+          src={require('./images/category.png')}
+        />
+              카테고리</div>
+            <div className='eCategory'>
+            <a>이벤트</a>
+            <a>기부</a>
+            <a>공지사항</a>
+            </div>
+            <div>장바구니</div>
+            </div>
+
+        </div>
 
       </div>
-      <Container>
+     
         <Routes>
           <Route path='/' element={
             <Shopmain />
           } />
         </Routes>
-      </Container>
+   
 
     </div>
   );

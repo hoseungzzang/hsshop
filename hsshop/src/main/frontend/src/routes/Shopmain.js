@@ -3,7 +3,7 @@ import '../css/Shopmain.css';
 function Shopmain() {
 
     return (
-      <div className='mar'>
+      <div className=''>
       <Carousel>
       <Carousel.Item>
         <img

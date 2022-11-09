@@ -6,10 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #dfe3ee;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Noto Sans CJK KR thin';
+  font-style: normal;
+  font-weight: 100;
+  src: 
+  url("./fonts/NotoSansKR-Light.otf") format('truetype')
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR mid';
+  font-style: Medium;
+  font-weight: 100;
+  src: 
+  url("./fonts/NotoSansKR-Medium.otf") format('truetype')
+}
+
