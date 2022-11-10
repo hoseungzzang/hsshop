@@ -1,5 +1,6 @@
 import { Button, Container, Nav, Row, Col, Card,Carousel  } from 'react-bootstrap';
 import '../css/Shopmain.css';
+import HotestThing from './shopMainComp/HotestThing.js';
 function Shopmain() {
 
     return (
@@ -43,9 +44,12 @@ function Shopmain() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+       <HotestThing/>      
        
-      </div>
+       </div>
     );
   }
 
   export default Shopmain
+
+  

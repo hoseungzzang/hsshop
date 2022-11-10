@@ -1,12 +1,55 @@
-.carousel{
+.carousel {
   width: 100%;
-    min-width: 1050px;
-    height: 370px;
+  min-width: 1050px;
+  height: 370px;
 
 }
-.carousel-item img{
+
+.carousel-item img {
   max-width: 100%;
-    min-width: 1050px;
-    height: 370px;
-    object-fit: cover;
+  min-width: 1050px;
+  height: 370px;
+  object-fit: cover;
+}
+
+/*HotestThing css*/
+.hotDiv {
+  min-width: 1050px;
+  margin-top: 70px;
+ 
+}
+
+.groupDiv{
+  min-width: 1050px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.thingDiv {
+  display: block;
+  transition: all 0.3s ease-out;
+  margin : 25px;
+  width: 350px;
+  
+  border-radius: 5%;
+
+}
+.thingDiv:hover {
+  transform: translateY(-20px);
+}
+.thingDiv img{
+  border-radius: 5%;
+}
+.thingDiv div{
+  width: 350px;
+  padding : 5px;
+ height: 200px;
+}
+.thingDiv p{
+  margin-top : 20px;
+  word-wrap: break-word;
+  font-size: large;
 }

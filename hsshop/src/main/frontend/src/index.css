@@ -13,7 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h2, p, h1 {
+  font-family:Noto Sans CJK KR mid;
 
+}
 @font-face {
   font-family: 'Noto Sans CJK KR thin';
   font-style: normal;
