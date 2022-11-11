@@ -3,6 +3,7 @@ import './App.css';
 import { Button, Navbar, Container, Nav, Row, Col, Card } from 'react-bootstrap';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import Shopmain from './routes/Shopmain.js';
+import Footer from './routes/Footer.js';
 import logo from './assets/logo.svg'
 function App() {
 
@@ -22,34 +23,35 @@ function App() {
               src={logo}
               width="20"
               height="20"
-              className="d-inline-block align-top App-logo" 
+              className="d-inline-block align-top App-logo"
             />HS's Shop
-            </div>
+          </div>
 
-            <div className='categoryNav'>
+          <div className='categoryNav'>
             <div><img
-          className="categotyImg"
-          src={require('./images/category.png')}
-        />
+              className="categotyImg"
+              src={require('./images/category.png')}
+            />
               카테고리</div>
             <div className='eCategory'>
-            <a>이벤트</a>
-            <a>기부</a>
-            <a>공지사항</a>
+              <a>이벤트</a>
+              <a>기부</a>
+              <a>공지사항</a>
             </div>
             <div>장바구니</div>
-            </div>
+          </div>
 
         </div>
 
       </div>
-     
-        <Routes>
-          <Route path='/' element={
-            <Shopmain />
-          } />
-        </Routes>
-   
+
+      <Routes>
+        <Route path='/' element={
+          <Shopmain />
+        } />
+      </Routes>
+
+        <Footer></Footer>
 
     </div>
   );

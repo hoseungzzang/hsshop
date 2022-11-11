@@ -102,3 +102,52 @@
     transform: rotate(360deg);
   }
 }
+
+/*footer css start*/
+
+.fMain{
+  width: 100%;
+  border-top: 1px solid #011627;
+  font-family: Noto Sans CJK KR mid;
+}
+.fGroup{
+  width: 1050px;
+
+  margin : 0px auto;
+}
+.fTitle{
+
+  padding-top: 32px;
+  font-size: 29px;
+}
+.fDivGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.fStack{
+margin-left: 120px;
+margin-right: 15px;
+margin-top: 15px;
+
+}
+.dlStack dl { margin:0;}
+.dlStack dt {  margin-left: 20px;  margin-bottom:10px; margin-top:10px;float: left; clear: left;}
+.dlStack dd {margin-bottom:10px; margin-top:12px; float: left; margin-left: 10px;}
+
+.dlInfo{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 1050px;
+}
+
+.bar{
+  width: 5px;
+  height: 50px;
+  margin: 0px 20px;
+  background-color:#011627;
+}
+/*footer css end*/

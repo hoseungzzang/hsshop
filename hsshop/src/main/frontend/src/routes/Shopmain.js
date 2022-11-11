@@ -1,6 +1,7 @@
 import { Button, Container, Nav, Row, Col, Card,Carousel  } from 'react-bootstrap';
 import '../css/Shopmain.css';
 import HotestThing from './shopMainComp/HotestThing.js';
+import HotItems from './shopMainComp/HotItems.js';
 function Shopmain() {
 
     return (
@@ -45,7 +46,7 @@ function Shopmain() {
       </Carousel.Item>
     </Carousel>
        <HotestThing/>      
-       
+       <HotItems/>   
        </div>
     );
   }

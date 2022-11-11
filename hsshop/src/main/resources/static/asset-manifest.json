@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a65c000.css",
-    "main.js": "/static/js/main.a739782f.js",
+    "main.css": "/static/css/main.3e4cf467.css",
+    "main.js": "/static/js/main.18b1f242.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/NotoSansKR-Medium.otf": "/static/media/NotoSansKR-Medium.56207b5e52841342a21b.otf",
     "static/media/NotoSansKR-Light.otf": "/static/media/NotoSansKR-Light.636ff9b51e826a733c3d.otf",
     "static/media/test.jpg": "/static/media/test.64b1a1af8ec59ceb3bc9.jpg",
     "static/media/cat.jpg": "/static/media/cat.4f4455d9c531d7cb89d7.jpg",
     "static/media/bg1.jpg": "/static/media/bg1.fee8e48fb8ff6d709aee.jpg",
+    "static/media/My SQL.png": "/static/media/My SQL.520276c9036b50351946.png",
+    "static/media/skills.png": "/static/media/skills.928d37759dd37704d57d.png",
+    "static/media/kakao.png": "/static/media/kakao.9232b6a69c1392910cce.png",
+    "static/media/email.png": "/static/media/email.635a790f3f266aabca98.png",
+    "static/media/Spring boot.png": "/static/media/Spring boot.ef404a14d7fb621efcf2.png",
+    "static/media/num.png": "/static/media/num.de6b5a0db46d87f558c2.png",
+    "static/media/JPA.png": "/static/media/JPA.b2ff15852275f1dbe769.png",
     "static/media/logo.svg": "/static/media/logo.958e7d840a62824b0702aa1b181b51d9.svg",
     "index.html": "/index.html",
-    "main.2a65c000.css.map": "/static/css/main.2a65c000.css.map",
-    "main.a739782f.js.map": "/static/js/main.a739782f.js.map",
+    "main.3e4cf467.css.map": "/static/css/main.3e4cf467.css.map",
+    "main.18b1f242.js.map": "/static/js/main.18b1f242.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a65c000.css",
-    "static/js/main.a739782f.js"
+    "static/css/main.3e4cf467.css",
+    "static/js/main.18b1f242.js"
   ]
 }

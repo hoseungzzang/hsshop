@@ -12,7 +12,7 @@
   object-fit: cover;
 }
 
-/*HotestThing css*/
+/*HotestThing css start*/
 .hotDiv {
   min-width: 1050px;
   margin-top: 70px;
@@ -53,3 +53,50 @@
   word-wrap: break-word;
   font-size: large;
 }
+/*HotestThing css end*/
+
+/*HotItems css start*/
+.HotItemsDiv {
+  width: 1050px;
+  margin-top: 70px;
+  margin: 0px auto;
+}
+
+.itemGroupDiv{
+  min-width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  margin-top:5%;
+
+}
+
+.itemDiv {
+  display: block;
+  transition: all 0.3s ease-out;
+  margin : 8px;
+
+  width: 245px;
+  
+  border-radius: 5%;
+
+}
+.itemDiv:hover {
+  transform: translateY(-20px);
+}
+.itemDiv img{
+  width: 100%;
+  border-radius: 5%;
+  height: 325px;
+}
+.itemDiv div{
+
+  padding : 5px;
+ height: 200px;
+}
+.itemDiv p{
+  margin-top : 20px;
+  word-wrap: break-word;
+  font-size: large;
+}
+/*HotItems css end*/
