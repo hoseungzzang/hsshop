@@ -3,6 +3,7 @@ import './App.css';
 import { Button, Navbar, Container, Nav, Row, Col, Card } from 'react-bootstrap';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import Shopmain from './routes/Shopmain.js';
+import Detail from './routes/Detail.js';
 import Footer from './routes/Footer.js';
 import logo from './assets/logo.svg'
 function App() {
@@ -48,6 +49,9 @@ function App() {
       <Routes>
         <Route path='/' element={
           <Shopmain />
+        } />
+        <Route path='/detail' element={
+          <Detail />
         } />
       </Routes>
 
